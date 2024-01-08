@@ -307,6 +307,11 @@ body {
 .gifts-corner {
   /* margin: 50px auto; */
   justify-content: justify;
+  text-align: left;
+  /* display: flex; */
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .gift {
@@ -320,10 +325,10 @@ body {
   height: 29px; */
 }
 
-.portfoli {
+.portfolio {
   color: #070211;
   font-family: Merriweather;
-  font-size: 90px;
+  font-size: 48px;
   font-style: normal;
   font-weight: 900;
   line-height: normal;
