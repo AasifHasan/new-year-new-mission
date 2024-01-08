@@ -1,39 +1,87 @@
-/* banner related styles */
-/* .banner {
-    width: 1320px;
-    height: 600px;
-    border: 16px;
-    padding: 0%;
-    flex-shrink: 0;
-    border-radius: 16px;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+/* Universal styles */
 
-}
-/* heading related style */
-/* .heading {
-    color: #FFF;
-    text-align: center;
-    font-family: Merriweather;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-} */ */
-
-.image-container {
-    position: relative;
-    display: inline-block;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.overlay-text {
-    position: absolute;
-    padding: 117px 531px 383px 530px;
-    color: #FFF;
-    text-align: center;
-    font-family: Merriweather;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+body {
+  font-family: 'Merriweather', serif;
+  font-family: 'Inter', sans-serif;
+}
 
+/* Banner related styles */
+.banner {
+  border-radius: 16px;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/Banner\ Image.png);
+  max-width: 1320px;
+  height: 600px;
+  flex-shrink: 0;
+  align-items: center;
+  margin: 50px auto;
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto; */
+}
+
+.content {
+  padding: 170px 340px;
+}
+
+.greeting {
+  color: #FFF;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.title {
+  color: #FFF;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+}
+
+/* holiday-section related styles */
+
+.discount {
+  color: #F00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  /* line-height: normal; */
+}
+
+.holiday-deals {
+  color: #F00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.holiday-theme {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.new-year-photo {
+  width: 802.9px;
+  height: 500px;
+  /* flex-shrink: 0; */
+  /* display: flex; */
+  justify-content: center;
 }
