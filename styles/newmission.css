@@ -19,9 +19,7 @@ body {
   flex-shrink: 0;
   align-items: center;
   margin: 50px auto;
-  /* display: block;
-  margin-left: auto;
-  margin-right: auto; */
+
 }
 
 .content {
@@ -56,7 +54,6 @@ body {
   font-style: normal;
   font-weight: 700;
   margin-top: 80px;
-  /* line-height: normal; */
 }
 
 .holiday-deals {
@@ -84,9 +81,6 @@ body {
 .new-year-photo {
   width: 802.9px;
   height: 500px;
-  /* flex-shrink: 0; */
-  /* display: flex; */
-  /* justify-content: center; */
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -96,4 +90,212 @@ body {
 
 .holiday-offers {
   margin-top: 60px;
+}
+
+/* party and welcome message section related style */
+
+.newyear-party {
+  width: 1320px;
+  height: 600px;
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/Vectorrr.png);
+  margin: 80px auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+
+}
+
+.party-heading {
+  color: #FFF;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px; 
+  letter-spacing: 7.04px;
+  width: 642px;
+}
+
+.welcome-message {
+  color: rgba(255, 255, 255, 0.80);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; 
+  margin: 0px 39px 30px 80px;
+  width: 697px;
+}
+
+.register {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 20px 600px 100px 130px;
+
+}
+
+.party-image {
+  margin: 75px auto 65px auto;
+}
+
+.ticket-style h1 {
+  padding: 15px;
+  margin: 126px 55px 24px 70px;
+}
+
+/* Time, Place and Schedule related styles */
+
+.schedule {
+  width: 1320px;
+  height: 482px;
+  background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  border-radius: 10px;
+  margin: 100px auto;
+  text-align: center;
+  display: flex;
+}
+
+.coloured-text {
+  color: #F00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; 
+  text-transform: capitalize;
+}
+
+.black-text {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+
+
+.register-btn {
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #F00;
+  border: 0;
+  margin-top: 60px;
+}
+
+.place {
+  margin-top: 10px;
+}
+
+.div-schedule {
+  margin-top: 10px;
+  display: block;
+  margin: 100px 385px 214px 385px;
+}
+
+/* Offer-section related style */
+
+.offer {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+
+.offer-heading {
+  color: #F00;
+  /* text-align: center; */
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.offer-status {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  margin: 3px 4px;
+}
+
+.offer-greeting {
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  width: 393px;
+  margin-top: 15px;
+}
+
+.people {
+  width: 364.844px;
+  height: 364.844px;
+  border-radius: 364.844px;
+  border-radius: 463px;
+  border: 15px solid red;
+  padding: 20px;
+  margin: 0px 80px 0px 40px;
+}
+
+.year {
+  color: #F00;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+
+.greeting-message {
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  width: 276px;
+  margin-bottom: 3px;
+}
+
+.year-image {
+  width: 140px;
+  height: 140px;
+  margin-top: 12px;
+}
+
+.div-offer {
+  margin: 100px 65px 100px 110px;
+}
+
+.offer-year {
+  margin: 75px 70px 10px 110px;
 }
