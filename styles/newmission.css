@@ -220,6 +220,8 @@ body {
   display: flex;
   justify-content: center;
   margin: auto;
+  width: 100%;
+  max-width: 1320px;
 }
 
 
@@ -298,4 +300,55 @@ body {
 
 .offer-year {
   margin: 75px 70px 10px 110px;
+}
+
+/* Gits and surprises related styles */
+
+.gifts-corner {
+  /* margin: 50px auto; */
+  justify-content: justify;
+}
+
+.gift {
+  color: #F00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  /* width: 192px;
+  height: 29px; */
+}
+
+.portfoli {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  /* margin: 16px 0px 22px 0px; */
+}
+
+.surprises {
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+
+.photo-table {
+  border-collapse: collapse;
+}
+
+.photo-table td {
+  padding: 5px;
+}
+
+.photo-table img {
+  width: 100%;
+  display: block; 
 }
